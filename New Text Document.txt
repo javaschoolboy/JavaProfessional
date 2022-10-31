@@ -1,1 +1,2 @@
 New text document
+Add new line
