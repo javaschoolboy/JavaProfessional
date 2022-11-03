@@ -1,7 +1,5 @@
 package homework1;
 
-import homework1.Cat;
-
 /**
  * Java Prof. Homework #1
  *
