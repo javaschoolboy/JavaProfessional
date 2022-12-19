@@ -33,13 +33,13 @@ public class SwingHashTable extends JFrame {
             // TODO
             canvasPanel.repaint();
         });
-        JPanel southPanel = new JPanel();
-        southPanel.setLayout(new BoxLayout(southPanel, BoxLayout.X_AXIS));
-        southPanel.add(textField);
-        southPanel.add(enterButton);
+        JPanel bottomPanel = new JPanel();
+        bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.X_AXIS));
+        bottomPanel.add(textField);
+        bottomPanel.add(enterButton);
 
         add(canvasPanel, BorderLayout.CENTER);
-        add(southPanel, BorderLayout.SOUTH);
+        add(bottomPanel, BorderLayout.SOUTH);
 
         pack();
         setLocationRelativeTo(null);
